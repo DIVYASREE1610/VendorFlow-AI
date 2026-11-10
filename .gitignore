@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# SQLite database
+backend/*.db
+
+# Uploaded vendor documents
+backend/uploads/
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Build and cache files
+.vite/
+.DS_Store
+Thumbs.db
